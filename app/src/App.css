@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+body{
+  background-image: linear-gradient(to bottom right,#77A1D3, #79CBCA ,#E684AE);
+}
+.App {
+  text-align: center;
+  font-family: 'Bubblegum Sans', cursive;
+}
+.content{
+    display:flex;
+  justify-content: space-evenly;
+}
+.doggos{
+  display:flex;
+  flex-direction: column;
+  width: 48vw;
+}
+.kitties{
+  display:flex;
+  flex-direction: column;
+  width: 48vw;
+}
+img{
+  width: 40vw;
+  height: 90vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  padding:2%;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color:rgba(0,0,0,0.3);
+}
+h1{
+  font-size: 2.5em;
+}
+h2{
+  font-size: 1.8em;
+}
+button{
+  width: 40%;
+  margin: 0 30%;
+  padding: 2% 0;
+  border-radius: 20px;
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 1.2em;
+  border: none;
+  background-color: #c3e9e6;
+}
+button:hover{
+  background-color: #f5d1e0;
+}
